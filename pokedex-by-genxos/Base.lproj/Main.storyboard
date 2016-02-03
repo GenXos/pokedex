@@ -328,7 +328,7 @@
                                             <constraint firstAttribute="height" constant="1" id="ZkD-Vn-vdy"/>
                                         </constraints>
                                     </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="uVf-s5-uya">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="uVf-s5-uya">
                                         <rect key="frame" x="0.0" y="302" width="560" height="21"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVC-iq-Aod">
@@ -375,10 +375,12 @@
                                         <variation key="default">
                                             <mask key="constraints">
                                                 <exclude reference="AeV-b8-jCL"/>
+                                                <exclude reference="YjD-wK-bd2"/>
+                                                <exclude reference="XF2-Qf-Xkb"/>
                                             </mask>
                                         </variation>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="D1n-A4-gxa">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="D1n-A4-gxa">
                                         <rect key="frame" x="0.0" y="343" width="560" height="21"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZ5-de-Xrv">
@@ -422,14 +424,17 @@
                                 <constraints>
                                     <constraint firstItem="D1n-A4-gxa" firstAttribute="leading" secondItem="KWj-dH-Zfn" secondAttribute="leading" id="3dz-8t-5bg"/>
                                     <constraint firstItem="uVf-s5-uya" firstAttribute="top" secondItem="me9-6X-pJK" secondAttribute="bottom" constant="20" id="3v6-wh-BME"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Pl-ik-qJ8" secondAttribute="trailing" id="61i-3g-aNl"/>
                                     <constraint firstAttribute="trailing" secondItem="l31-Zt-HSq" secondAttribute="trailing" id="EB3-5i-cgU"/>
                                     <constraint firstAttribute="trailing" secondItem="uVf-s5-uya" secondAttribute="trailing" id="INJ-AL-PON"/>
-                                    <constraint firstAttribute="bottom" secondItem="D1n-A4-gxa" secondAttribute="bottom" id="OMU-i9-Gaz"/>
+                                    <constraint firstItem="4Pl-ik-qJ8" firstAttribute="leading" secondItem="KWj-dH-Zfn" secondAttribute="leading" id="Iij-1m-aYz"/>
+                                    <constraint firstAttribute="bottom" secondItem="D1n-A4-gxa" secondAttribute="bottom" constant="45" id="OMU-i9-Gaz"/>
                                     <constraint firstItem="me9-6X-pJK" firstAttribute="top" secondItem="l31-Zt-HSq" secondAttribute="bottom" constant="20" id="RIa-VV-mSZ"/>
                                     <constraint firstItem="D1n-A4-gxa" firstAttribute="top" secondItem="uVf-s5-uya" secondAttribute="bottom" constant="20" id="bLP-YL-oE7"/>
                                     <constraint firstAttribute="trailing" secondItem="D1n-A4-gxa" secondAttribute="trailing" id="bht-33-4TC"/>
                                     <constraint firstItem="me9-6X-pJK" firstAttribute="leading" secondItem="KWj-dH-Zfn" secondAttribute="leading" id="kBb-Up-4VN"/>
                                     <constraint firstItem="l31-Zt-HSq" firstAttribute="leading" secondItem="KWj-dH-Zfn" secondAttribute="leading" id="puG-13-0lP"/>
+                                    <constraint firstItem="4Pl-ik-qJ8" firstAttribute="top" secondItem="ZFv-9B-fQ7" secondAttribute="bottom" constant="20" id="rAe-KS-1U4"/>
                                     <constraint firstItem="uVf-s5-uya" firstAttribute="leading" secondItem="KWj-dH-Zfn" secondAttribute="leading" id="srL-oc-ew4"/>
                                     <constraint firstAttribute="trailing" secondItem="me9-6X-pJK" secondAttribute="trailing" id="uJt-ze-0JC"/>
                                 </constraints>
